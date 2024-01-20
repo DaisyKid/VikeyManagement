@@ -8,19 +8,12 @@
 #include "VikeyManagementDlg.h"
 #include "afxdialogex.h"
 
-#include "input/CryptoppVikey/include/CryptoppVikey.h"
+#include "CryptoppVikey/CryptoppVikey.h"
 
 #include <iostream>
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
-#endif
-
-#if defined _M_X64 && defined(_MSC_VER) && (_MSC_VER >= 1920)
-#pragma comment(lib, "input/CryptoppVikey/lib/libCryptoppVikey.lib")
-#pragma comment(lib, "input/CryptoppVikey/lib/cryptlib.lib")
-#pragma comment(lib, "input/CryptoppVikey/lib/ViKey_X64_VS2019_MT.lib")
-#pragma comment(lib, "input/CryptoppVikey/lib/atls.lib")
 #endif
 
 
